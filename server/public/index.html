@@ -16,6 +16,7 @@
     <h1>All the Foods!</h1>
     <div ng-controller="FoodController as fc">
         <input placeholder="food" type="text" ng-model="fc.foodIn">
+        <button ng-click="fc.addFood()">add food!</button>
         <p>{{fc.foodIn}}</p>
     </div>
 
