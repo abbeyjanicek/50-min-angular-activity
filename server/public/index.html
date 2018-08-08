@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>50 Minute Angular JS Activity</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
     <script src="vendors/angular.min.js"></script>
     <script src="scripts/client.js"></script>
-   
+
 </head>
+
 <body ng-app="foodApp">
     <h1>All the Foods!</h1>
-    <div ng-controller="FoodController as fc"></div>
-    
+    <div ng-controller="FoodController as fc">
+        <input placeholder="food" type="text" ng-model="fc.foodIn">
+        <p>{{fc.foodIn}}</p>
+    </div>
+
 </body>
+
 </html>
