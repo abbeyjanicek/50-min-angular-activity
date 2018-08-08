@@ -1,0 +1,24 @@
+{
+  "name": "50-Min-Angular-Activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbeyjanicek/50-min-angular-activity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbeyjanicek/50-min-angular-activity/issues"
+  },
+  "homepage": "https://github.com/abbeyjanicek/50-min-angular-activity#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
